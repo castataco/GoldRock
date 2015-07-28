@@ -6,7 +6,9 @@ var importRoutes = keystone.importer(__dirname);
 keystone.pre('routes', middleware.initLocals);
 keystone.pre('render', middleware.flashMessages);
 
-// Import Route Controllers
+
+
+// Load Route Controllers
 var routes = {
 	views: importRoutes('./views')
 };
@@ -18,6 +20,7 @@ exports = module.exports = function(app) {
 	app.get('/', routes.views.index);
 	app.get('/blog/:category?', routes.views.blog);
 	app.get('/blog/post/:post', routes.views.post);
+	app.get('/bands/', routes.views.bands);
 	app.get('/gallery', routes.views.gallery);
 	app.all('/contact', routes.views.contact);
 
