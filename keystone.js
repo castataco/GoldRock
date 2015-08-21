@@ -47,7 +47,7 @@ keystone.set('locals', {
 keystone.set('routes', require('./routes'));
 
 keystone.set('email locals', {
-	logo_src: '/images/logo-email.gif',
+	logo_src: '/images/logorock.png',
 	logo_width: 194,
 	logo_height: 76,
 	theme: {

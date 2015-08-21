@@ -1,7 +1,7 @@
 # GoldRock
 Music platform built on Keystone JS Framework, MongoDB, &amp; Handlebars.js
 
-Open Source Chattarock Music platform
+Open Source chattaROCK Music platform
 
 ##Changes:
 * 7-27-15 - Added placeholder for music showcases and webscrapers.

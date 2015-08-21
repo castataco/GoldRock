@@ -7,6 +7,7 @@
 		<title>chattarock</title>
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 		<link href="/styles/cyborg.min.css" rel="stylesheet">
+		<link href="/styles/custom.css" rel="stylesheet">
 
 		{{!-- This file provides the default styling for the KeystoneJS Content Editor
 			- only renders when user is logged in and admin--}}
@@ -101,9 +102,13 @@
 		--}}
 		<script src="/js/bootstrap/bootstrap-3.3.4.min.js"></script>
 		{{{isAdminEditorJS user}}}
-        {{!-- 
+
+				{{!--
             // This is the scraper file for scraping web data
         --}}
-        <script src="/js/scraper.js"></script>
+    <script src="/js/importio.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/packery/1.4.2/packery.pkgd.min.js"></script>
+
 	</body>
 </html>
